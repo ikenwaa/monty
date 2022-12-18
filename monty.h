@@ -88,6 +88,8 @@ void div_m(stack_t **stack, unsigned int line_number);
 void mod_m(stack_t **stack, unsigned int line_number);
 void pstr_t(stack_t **stack, unsigned int line_number);
 void rotrl(stack_t **stack, unsigned int line_number);
+void push(stack_t **h, unsigned int line_number, const char *n);
+void pop(stack_t **h, unsigned int line_number);
 
 /*error*/
 void stderr_usage(void);
