@@ -108,7 +108,7 @@ void full_buff(unsigned int num, unsigned int base, char *buff, int buff_size);
 void pop_e(unsigned int line_number);
 void pint_e(unsigned int line_number);
 void pchar_e(unsigned int line_number, char *msg);
-int _isdigit();
+int _isdigit(void);
 void free_dlistint(stack_t *stack);
 void free_globalvars(void);
 void rotr(stack_t **stack, unsigned int line_number);
